@@ -1,0 +1,167 @@
+                            @media (max-width:420px) and (max-height:825px) {
+                                ul {
+                                    padding-top: 85%;
+                                }
+                                ul li a {
+                                    font-size: 12px;
+                                    padding: 10px 1.8em 0 46px;
+                                    line-height: 2.2em;
+                                }
+                                .main-title {
+                                    top: 43%;
+                                    left: 55%;
+                                    font-size: 3.5em;
+                                    transform: translate3d(-36%, -91%, 0);
+                                }
+                                .demo-1 .main-title,
+                                .demo-3 .main-title,
+                                .demo-4 .main-title {
+                                    font-size: 2.5em;
+                                }
+                                .demo-2 .main-title {
+                                    font-size: 3.5em;
+                                }
+                            }
+                            
+                            @media (max-width:840px) and (max-height:460px) {
+                                ul {
+                                    padding-top: 10%;
+                                }
+                                ul li a {
+                                    font-size: 12px;
+                                    padding: 11px 1.8em 0 46px;
+                                    line-height: 2.2em;
+                                }
+                                .main-title {
+                                    top: 43%;
+                                    left: 55%;
+                                    font-size: 3.5em;
+                                    transform: translate3d(-100%, -52%, 0);
+                                }
+                                .demo-1 .main-title,
+                                .demo-3 .main-title,
+                                .demo-4 .main-title {
+                                    font-size: 2.5em;
+                                }
+                                .demo-2 .main-title {
+                                    font-size: 3.0em;
+                                }
+                            }
+                            
+                            @media (max-width:840px) and (max-height:325px) {
+                                ul {
+                                    padding-top: 0%;
+                                }
+                                ul li {
+                                    margin: 10px 0;
+                                    height: 40px;
+                                }
+                                ul li a {
+                                    font-size: 12px;
+                                    padding: 17px 1.8em 0 46px;
+                                    line-height: 1.2em;
+                                }
+                            }
+                            
+                            @media (max-width:382px) and (max-height:850px) {
+                                ul {
+                                    padding-top: 85%;
+                                }
+                            }
+                            /*
+@media (min-width:382px) and (min-height:830px) {
+    ul {
+        padding-top: 85%;
+    }
+    ul li a {
+        font-size: 25px;
+        padding: 10px 1.8em 0 46px;
+        line-height: 1.2em;
+    }
+}*/
+                            
+                            @media (max-width:550px) and (max-height:825px) {
+                                ul {
+                                    padding-top: 94%;
+                                }
+                                ul li a {
+                                    font-size: 15px;
+                                    padding: 10px 1.8em 0 46px;
+                                    line-height: 2.2em;
+                                }
+                                .main-title {
+                                    top: 43%;
+                                    left: 55%;
+                                    font-size: 3.5em;
+                                    transform: translate3d(-40%, -73%, 0);
+                                }
+                                .demo-1 .main-title,
+                                .demo-3 .main-title,
+                                .demo-4 .main-title {
+                                    font-size: 2.5em;
+                                }
+                                .demo-2 .main-title {
+                                    font-size: 3.5em;
+                                }
+                            }
+                            
+                            @media (max-width:800px) and (min-height:855px) {
+                                ul {
+                                    padding-top: 65%;
+                                }
+                                ul li a {
+                                    font-size: 25px;
+                                }
+                            }
+                            
+                            @media (max-width:1050px) and (min-height:855px) {
+                                ul {
+                                    padding-top: 85%;
+                                }
+                                ul li a {
+                                    font-size: 25px;
+                                    line-height: 1.8em;
+                                }
+                            }
+                            
+                            @media (min-width:1023px) and (min-height:760px) {
+                                ul {
+                                    padding-top: 41%;
+                                }
+                                ul li a {
+                                    font-size: 27px;
+                                    line-height: 1.8em;
+                                }
+                            }
+                            
+                            @media (width:1024px) and (height:1366px) {
+                                ul {
+                                    padding-top: 81%;
+                                }
+                            }
+                            
+                            @media (width:320px) and (height:568px) {
+                                ul {
+                                    padding-top: 85%;
+                                }
+                            }
+                            
+                            @media (width:540px) and (height:720px) {
+                                ul {
+                                    padding-top: 75%;
+                                }
+                            }
+                            
+                            @media (width:720px) and (height:540px) {
+                                ul {
+                                    padding-top: 30%;
+                                }
+                                .demo-2 .main-title {
+                                    font-size: 300%;
+                                }
+                                ul li a {
+                                    font-size: 15px;
+                                    padding: 10px 1.8em 0 46px;
+                                    line-height: 2.2em;
+                                }
+                            }

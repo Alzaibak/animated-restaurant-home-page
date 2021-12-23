@@ -1,0 +1,293 @@
+/* Header */
+
+body {}
+
+.large-header {
+    position: relative;
+    width: 100%;
+    background: #333;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
+}
+
+.demo-1 .large-header {
+    background-image: url('../img/demo-1-bg.jpg');
+}
+
+.demo-2 .large-header {
+    background-image: url('../img/demo-2-bg.jpg');
+    background-position: center bottom;
+}
+
+.demo-3 .large-header {
+    background: #7f8c8d;
+}
+
+.demo-4 .large-header {
+    background: #f9f1e9;
+}
+
+.main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #520b15;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.demo-1 .main-title,
+.demo-3 .main-title {
+    text-transform: uppercase;
+    font-size: 4.2em;
+    letter-spacing: 0.1em;
+}
+
+.demo-2 .main-title {
+    font-family: 'Clicker Script', cursive;
+    font-weight: normal;
+    font-size: 600%;
+    padding-left: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.demo-2 .main-title::before {
+    content: '';
+    width: 20vw;
+    height: 20vw;
+    min-width: 4.5em;
+    min-height: 3.5em;
+    background: url(../img/deco.svg) no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    z-index: -1;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+.demo-3 .main-title {
+    padding: 10px 40px;
+    border: 10px double #f9f1e9;
+    text-transform: uppercase;
+    font-family: Londrina Outline, sans-serif;
+}
+
+.demo-4 .main-title {
+    font-size: 6em;
+    font-weight: 300;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: #222;
+}
+
+.main-title .thin {
+    font-weight: 200;
+}
+
+
+/*
+$red: #F37272;
+$brown: #584E4A;
+$whitey: #f0f0f0;
+$snap: cubic-bezier(1.000,
+0.005,
+0.240,
+1.000);
+$bounce: cubic-bezier(0.175,
+0.885,
+0.320,
+1.275);
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.page {
+    height: 100%;
+    background-color: $brown;
+}
+
+.content {
+    // essential
+    height: 200%; // make higher or you'll see background when rotated
+    transform-origin: top left;
+    transition: transform .7s $snap;
+    // styling
+    background-color: $whitey;
+}
+
+.content_inner {
+    // essential
+    height: 50%; // compensate for higher .content
+    overflow-y: auto; // set expected overflow
+    // styling
+    padding: 50px 20%;
+}
+*/
+
+
+/* basically all styling from now on */
+
+
+/*
+.menu_toggle {
+    z-index: 900;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    cursor: pointer;
+    width: 100px;
+    height: 80px;
+    background-color: $red;
+    border-bottom-right-radius: 100%;
+    &:active {
+        i {
+            opacity: 0.8
+        }
+    }
+    i {
+        color: $whitey;
+    }
+    .menu_open,
+    .menu_close {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -15px;
+        margin-left: -12px;
+        transition: transform .7s $snap;
+    }
+    .menu_open {
+        transform-origin: -100px -100px;
+    }
+    .menu_close {
+        transform: rotate(20deg);
+        transform-origin: -100px -160px;
+    }
+}
+
+.menu_items {
+    position: fixed;
+    bottom: 0;
+    left: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+        height: 60px;
+        margin-bottom: 30px;
+        transform: translateX(-300px);
+        transition: transform .7s 0s $snap;
+        &:nth-child(2) {
+            margin-left: 40px;
+        }
+        &:nth-child(3) {
+            margin-left: 80px;
+        }
+    }
+    a {
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        color: darken($whitey, 30%);
+        transition: color .2s;
+        .icon {
+            position: relative;
+            display: inline-block;
+            margin-right: 25px;
+            color: $whitey;
+            &:after {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                content: '';
+                display: block;
+                width: 60px;
+                height: 60px;
+                margin-left: -33px;
+                margin-top: -32px;
+                border-radius: 100%;
+                border: 2px solid $whitey;
+                transition: border-color .2s;
+            }
+        }
+        &:hover {
+            color: $whitey;
+            .icon {
+                &:after {
+                    border-color: $red;
+                }
+            }
+        }
+        &:active {
+            .icon {
+                color: $red;
+            }
+        }
+    }
+}
+*/
+
+
+/* Let's open up the menu */
+
+
+/*
+.shazam {
+    .content {
+        transform: rotate(-30deg);
+    }
+    // this will show hidden content overflow when rotated,
+    // but will result in a jump, if you've already scrolled down the content
+    // plus, you will lose your current reading position
+    // fixable with JS, not gonna bother
+    /*.content_inner {
+    height: 100%;
+  }*/
+
+
+/*
+    .menu_open {
+        transform: rotate(-20deg);
+    }
+    .menu_close {
+        transform: rotate(0);
+    }
+    .menu_items {
+        li {
+            transform: translateX(0);
+            transition: transform .35s .45s $bounce;
+            &:nth-child(2) {
+                transition-delay: .47s;
+            }
+            &:nth-child(3) {
+                transition-delay: .48s;
+            }
+        }
+    }
+}
+
+// misc
+h1 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+body {
+    color: $brown;
+}*/
